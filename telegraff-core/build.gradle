@@ -1,0 +1,9 @@
+dependencies {
+    // Spring
+    compile('org.springframework.boot:spring-boot-starter-web')
+
+    // Tests
+    testCompile('org.springframework.boot:spring-boot-starter-test')
+    testCompile("org.jetbrains.kotlin:kotlin-test")
+}
+

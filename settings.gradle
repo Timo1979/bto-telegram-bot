@@ -1,0 +1,5 @@
+rootProject.name = 'bto-telegram-bot'
+include 'bot'
+include 'telegraff-autoconfigure'
+include 'telegraff-core'
+include 'telegraff-starter'
