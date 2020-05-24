@@ -1,4 +1,4 @@
-package me.ruslanys.telegraff.sample
+package by.tut.efreet.telegram.bot
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

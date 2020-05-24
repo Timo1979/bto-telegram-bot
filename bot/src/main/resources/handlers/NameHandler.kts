@@ -1,7 +1,7 @@
+import by.tut.efreet.telegram.bot.NameGenerator
 import me.ruslanys.telegraff.core.dsl.handler
 import me.ruslanys.telegraff.core.dto.request.MarkdownMessage
 import me.ruslanys.telegraff.core.exception.ValidationException
-import me.ruslanys.telegraff.sample.NameGenerator
 
 handler("/name", "имя") {
 

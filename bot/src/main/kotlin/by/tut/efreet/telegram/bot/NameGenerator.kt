@@ -1,7 +1,7 @@
-package me.ruslanys.telegraff.sample
+package by.tut.efreet.telegram.bot
 
 import org.springframework.stereotype.Component
-import java.util.*
+import java.util.Random
 
 @Component
 class NameGenerator {

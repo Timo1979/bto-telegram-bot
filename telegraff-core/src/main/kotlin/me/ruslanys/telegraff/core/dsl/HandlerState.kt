@@ -5,7 +5,8 @@ import java.util.concurrent.ConcurrentHashMap
 
 class HandlerState(
         val chat: TelegramChat,
-        val handler: Handler
+        val handler: Handler,
+        val initialMessage: String
 ) {
 
     var currentStep: Step<*>? = handler.getInitialStep()

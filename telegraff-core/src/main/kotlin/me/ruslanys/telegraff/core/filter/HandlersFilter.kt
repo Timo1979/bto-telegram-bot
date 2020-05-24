@@ -30,7 +30,7 @@ class HandlersFilter(private val telegramApi: TelegramApi, handlersFactory: Hand
 
         val response = try {
             if (state == null) {
-                val newState = HandlerState(message.chat, handler)
+                val newState = HandlerState(message.chat, handler, message.text?:"")
                 states[message.chat.id] = newState
 
                 handleQuestion(newState)
